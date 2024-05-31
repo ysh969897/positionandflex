@@ -1,0 +1,153 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* 공통 */
+.work {
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* 과제 1 */
+.work-1 {
+  border: 5px solid red;
+}
+
+.work-1 .mother {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-1 .black-div {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+
+.work-1 .sub-mom {
+  display: flex;
+}
+
+.work-1 .box-2 {
+  margin-right: 5px;
+}
+
+/* 과제 2 */
+.work-2 {
+  border: 5px solid blue;
+  margin-top: 20px;
+}
+
+.work-2 .mother {
+  display: flex;
+  flex-direction: column;
+}
+
+.work-2 .black-box {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+
+.work-2 .box-2 {
+  align-self: center;
+}
+
+.work-2 .box-3 {
+  align-self: end;
+}
+
+/* 과제 3 */
+.work-3 {
+  border: 5px solid green;
+  margin-top: 20px;
+}
+
+.work-3 .mom {
+  display: flex;
+  justify-content: center;
+}
+
+.work-3 .gray-box {
+  height: 300px;
+  width: 300px;
+  background-color: gray;
+  color: white;
+  margin-top: 30px;
+  position: relative;
+}
+
+.work-3 .black-box {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+/* 과제 4 */
+.work-4 {
+  border: 5px solid yellow;
+  margin-top: 20px;
+  height: 300px;
+}
+
+.work-4 .black-box {
+  height: 100px;
+  width: 100px;
+  color: white;
+  position: relative;
+  background-color: black;
+}
+
+.work-4 .gray-box {
+  height: 100px;
+  width: 100px;
+  color: white;
+  background-color: gray;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+/* 과제 5 */
+.work-5 {
+  border: 5px solid purple;
+  margin-top: 20px;
+  position: relative;
+  width: 1000px;
+  height: 400px;
+}
+
+.work-5 .gray-box {
+  background-color: gray;
+  width: 800px;
+  height: 300px;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.work-5 .black-box {
+  background-color: black;
+  width: 200px;
+  height: 200px;
+  color: white;
+  position: absolute;
+}
+
+.work-5 .box-2 {
+  left: 0;
+  bottom: 0;
+}
+
+.work-5 .box-3 {
+  right: 0;
+  top: 0;
+}
